@@ -16,7 +16,7 @@
             android:layout_width="fill_parent"
             android:layout_height="170dp"
             android:paddingBottom="20dp"
-            android:background="@color/red">
+            android:background="@drawable/download">
         </RelativeLayout>
         <LinearLayout
             android:layout_below="@id/topBarHome"
@@ -131,6 +131,8 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
+
+
                 <androidx.cardview.widget.CardView
                     android:layout_column="1"
                     android:layout_row="1"
@@ -141,39 +143,7 @@
 
                     >
                     <LinearLayout
-                        android:id="@+id/btnEditData"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="10dp"
-                            android:src="@drawable/ic_edit"/>
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:gravity="center"
-                            android:text="Edit Data"
-                            />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_column="0"
-                    android:layout_row="2"
-                    android:layout_columnWeight="1"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
-                    app:cardCornerRadius="5dp"
-
-                    >
-                    <LinearLayout
-                        android:id="@+id/btnAboutUs1"
+                        android:id="@+id/btnAboutUs"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:padding="10dp"
@@ -195,37 +165,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_column="1"
-                    android:layout_row="2"
-                    android:layout_columnWeight="1"
-                    android:layout_height="120dp"
-                    android:layout_margin="5dp"
-                    app:cardCornerRadius="5dp"
 
-                    >
-                    <LinearLayout
-                        android:id="@+id/btnAboutUs2"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="10dp"
-                            android:src="@drawable/ic_exit"/>
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="#000"
-                            android:textSize="18sp"
-                            android:gravity="center"
-                            android:text="Keluar"
-                            />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
 
 
 
